@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(44, 39, 39);
+    scroll-behavior: smooth;
+}
+.header{
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/9f46b569-aff7-4975-9b8e-3212e4637f16/453ba2a1-6138-4e3c-9a06-b66f9a2832e4/IN-en-20240415-popsignuptwoweeks-perspective_alpha_website_small.jpg");
+    min-height: 700px;
+    object-fit: none;
+}
+.head{
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/9f46b569-aff7-4975-9b8e-3212e4637f16/453ba2a1-6138-4e3c-9a06-b66f9a2832e4/IN-en-20240415-popsignuptwoweeks-perspective_alpha_website_small.jpg");
+    width: 1470px;
+    height: 730px;
+    /* filter: opacity(82%); */
+    display: flex;
+    object-fit: none;
+}
+.logo h1{
+    filter: brightness(100%);
+    padding: 40px 150px;
+    color: red;
+    font-size: 50px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+}
+.button{
+    margin-left: 400px;
+    padding: 50px 150px;
+}
+.button select{
+    background-color: black;
+    padding: 10px;
+    color: white;
+    font-weight: bolder;
+    width: 130px;
+    border: 0.5px solid white;
+    border-radius: 5px;
+    font-size: medium;
+}
+.button > .sign-in{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.button button{
+    margin-left: 40px;
+    background-color: red;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    width: 80px;
+    border: 0.5px solid white;
+    border-radius: 5px;
+    font-size: medium;
+    cursor: pointer;
+}
+.content{
+    margin-top: -450px;
+    margin-left: auto;
+    text-align: center;
+    color: white;
+    font-family: "Rubik", sans-serif;
+    font-size: large;
+}
+.content > h1,h4,h3{
+    padding: 10px;
+    font-weight: 800;
+}
+.user-input{
+    margin-left: 550px;
+    display: flex;
+    margin-top: 25px;
+}
+.user-input input{
+    width: 300px;
+    height: 10px;
+    background-color:#0F0F0F;
+    padding: 15px;
+    border: 0.5px solid rgb(100, 97, 97);
+    color: white;
+
+}
+.user-input input::placeholder{
+    color: rgb(137, 135, 135);
+}
+.user-input button{
+    width: 210px;
+    background-color: red;
+    font-size: x-large;
+    color: whitesmoke;
+    border: none;
+    outline: red ;
+    border-radius: 5px;
+    margin-left: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+.enjoyment{
+    margin-top: 40px;
+    display: flex;
+    background-color: black;
+    min-height: 400px;
+}
+
+.text{
+    padding-left: 200px;
+    padding-top: 200px;
+    width: 600px;
+    text-align: left;
+    color: white;
+    font-family: "Rubik", sans-serif;
+    min-height: 400px;
+}
+.text>h1{
+    font-size: 55px;
+}
+.text h3{
+    margin-left: -10px;
+}
+.tv-img img{
+    margin-top: 100px;
+    height: 300px;
+    width: 400px;
+    padding-left: 100px;
+    position: relative;
+    z-index: 10;
+}
+.video-tv{
+    margin-top: -121px;
+    width: 292px;
+    margin-left: 76px;    
+}
+.video-tv video{
+    position: absolute;
+}
+.shows{
+    padding-left: 50px;
+    margin-top: 10px;
+    display: flex;
+    background-color: black;
+}
+.video-i{
+    margin-top: -160px;
+    width: 10px;
+    margin-left: 95px;   
+}
+.video-i video{
+    width: 250px;
+}
+.shows h1{
+    width: 610px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.sign-in-form{
+    background-color: rgba(0, 0, 0, 0.692);
+    margin-top: -600px;
+    color: whitesmoke;
+    width: 400px;
+    height: 600px;
+    margin-left: 500px;
+    padding: 50px;
+
+}
+#sign-in-inputs{
+    margin-top: 40px;
+}
+#email{
+    padding: 15px;
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.66);
+    border: none ;
+    color: white;
+    width: 300px;
+    border: 1px solid rgb(175, 174, 174);
+}
+#email::placeholder{
+    color: rgb(130, 126, 126);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.sign-in-button{
+    background-color: red;
+    color: whitesmoke;
+    width: 330px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    outline: none;
+    font-size: larger;
+    cursor: pointer;
+}
+.or{
+    margin-left: 40%;
+    font-weight: lighter;
+    color: grey;
+}
+.sign-in-button-code{
+    background-color: rgba(57, 55, 55, 0.573);
+    color: whitesmoke;
+    width: 330px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    outline: none;
+    font-size: larger;
+    cursor: pointer;
+}
+.forgot{
+    margin: 15px;
+}
+.forgor-pass{
+    margin-left: 30%;
+}
+.forgor-pass:hover{
+    text-decoration: underline;
+}
+.check{
+    margin-left: 5%;
+}
+span{
+    padding: 15px;
+    font-size: large;
+}
+.new-netflix{
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 3%;
+    font-weight: lighter;
+    color: rgb(186, 184, 184);
+    font-size: x-small;
+}
+.new-netflix a{
+    padding-left: 10px;
+    font-size: large;
+    font-weight: lighter;
+}
+.new-netflix a:hover{
+    text-decoration: underline;
+}
+.captch{
+    margin-left: 5%;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 10px;
+}
+.captch a{
+    color: rgb(0, 0, 255);
+    font-weight: lighter;
+}
+.captch a:hover{
+    text-decoration: underline;
+}
+.freq{
+    background-color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    text-align: center;
+}
+.freq-button{
+    width: 1100px;
+    height: 70px;
+    border-radius: 5px;
+    background-color: #414141;
+    border: none;
+    outline: none;
+    text-align: left;
+    padding: 25px;
+    color: white;
+    font-size: larger;
+    margin-top: 10px;
+}
+.freq-button button{
+    margin-top: 10px;
+}
+.mydiv{
+    width: 1051px;
+    height: 70px;
+    border-radius: 5px;
+    background-color: #414141;
+    border: none;
+    outline: none;
+    text-align: center;
+    padding: 25px;
+    color: white;
+    font-size: larger;
+    margin-left: 185px;
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+.info h2{
+    margin: 30px 0px;
+    font-weight: lighter;
+}
+#info{
+    padding: 10px 10px;
+}
+footer{
+    margin-top: 10px;
+    background-color: black;
+    color: rgb(198, 195, 195);
+    font-weight: lighter;
+}
+footer h3{
+    padding: 50px;
+    margin-left: 150px;
+}
+footer h3 > span{
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: lighter;
+}
+.fotter{
+    display: flex;
+    margin-left: 150px;
+}
+.fotter a{
+    color: rgb(198, 195, 195);
+    font-weight: lighter;
+    text-decoration: underline;
+}
+.link{
+    padding: 10px;
+    margin: 40px;
+}
+.link p{
+    padding: 5px;
+}
+.fotter-language select{
+    margin-left: 200px;
+    padding: 4px;
+    background-color: rgb(44, 40, 40); 
+    color: rgb(218, 213, 213);
+    font-weight: bolder;
+    width: 130px;
+    border: 0.5px solid rgb(106, 100, 100);
+    font-size: medium;
+}
